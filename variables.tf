@@ -12,12 +12,12 @@ variable "bucket_name" {
   type        = string
 }
 
-variable "access_key" {
+variable "AWS_ACCESS_KEY" {
   description = "access key"
   type = string
 }
 
-variable "secret_access_key" {
+variable "AWS_SECRET_ACCESS_KEY" {
   description = "access key"
   type = string
 }
