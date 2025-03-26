@@ -13,7 +13,7 @@ provider "aws" {
 
 provider "random" {}
 
-data "aws_availability_zones" "available" {}
+# data "aws_availability_zones" "available" {}
 
 resource "random_pet" "random" {}
 
