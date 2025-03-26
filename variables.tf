@@ -11,3 +11,13 @@ variable "bucket_name" {
   description = "Unique name to assign to bucket."
   type        = string
 }
+
+variable "access_key" {
+  description = "access key"
+  type = string
+}
+
+variable "secret_access_key" {
+  description = "access key"
+  type = string
+}
