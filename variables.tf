@@ -11,13 +11,3 @@ variable "bucket_name" {
   description = "Unique name to assign to bucket."
   type        = string
 }
-
-variable "AWS_ACCESS_KEY" {
-  description = "access key"
-  type = string
-}
-
-variable "AWS_SECRET_ACCESS_KEY" {
-  description = "access key"
-  type = string
-}
