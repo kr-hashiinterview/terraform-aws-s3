@@ -10,4 +10,5 @@ variable "region" {
 variable "bucket_name" {
   description = "Unique name to assign to bucket."
   type        = string
+  default     = "kr-variable-made-bucket"
 }
